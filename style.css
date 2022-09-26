@@ -1,0 +1,29 @@
+.gray{
+    background-color: #F8F9FE;
+}
+
+.outer-container{
+    background-color:rgb(181, 207, 255) !important;
+}
+button{
+    background-color: #382AE1;
+    color: white;
+}
+body{
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+
+}
+@media (min-width: 370px){
+    .outer-container{
+        max-width: 330px;
+        margin: 0 auto;
+
+       
+    }
+    body{
+        background-image: url(./images/pattern-background-desktop.svg);
+        width: 100%;
+        height: auto;
+    }
+}
